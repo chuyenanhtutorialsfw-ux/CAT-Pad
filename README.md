@@ -68,7 +68,7 @@ Trong [trang tải về](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/rele
 
 | Tệp | Dùng khi |
 | --- | --- |
-| `CAT-Pad-1.0.0-win-x64.zip` | Bản chạy ngay không cần cài: giải nén ra ổ cứng rồi mở `CAT Pad.exe`. |
+| `CAT-Pad-<phiên bản>-win-x64.zip` | Bản chạy ngay không cần cài: giải nén ra ổ cứng rồi mở `CAT Pad.exe` (không tự cập nhật được). |
 | `SHA256SUMS.txt` | Mã SHA-256 để kiểm tra tệp tải về không bị thay đổi. |
 | `update.json`, `update.json.sig` | Thông tin bản cập nhật và chữ ký số của Chuyên Anh Tutorials, dùng cho nút **Kiểm tra cập nhật** trong app (không cần tải). |
 

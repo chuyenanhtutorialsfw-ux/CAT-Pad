@@ -25,7 +25,7 @@
 </table>
 
 <p align="center">
-  <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Huong-dan-su-dung.pdf"><img src="anh/nut-huong-dan.png" alt="Hướng dẫn sử dụng (PDF)" width="480"></a>
+  <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Huong-dan-su-dung.pdf"><img src="anh/nut-huong-dan-vi.png" alt="Hướng dẫn sử dụng (PDF)" width="480"></a>
 </p>
 
 <p align="center">

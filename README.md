@@ -10,22 +10,27 @@
 
 <p align="center">
   <b>Vở ghi dạy học Toán – Lý – Hoá – Sinh</b><br>
-  Miễn phí · Không cần mạng · Dành cho máy tính Windows 10 / 11
+  Miễn phí · Không cần mạng · Dành cho máy tính Windows 10 / 11 và Linux
 </p>
 
 <p align="center">
   <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest"><img src="https://img.shields.io/github/v/release/chuyenanhtutorialsfw-ux/CAT-Pad?label=phi%C3%AAn%20b%E1%BA%A3n%20m%E1%BB%9Bi%20nh%E1%BA%A5t&color=1578f5" alt="Phiên bản mới nhất"></a>
 </p>
 
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/tai-windows.png" alt="TẢI CHO WINDOWS — bấm vào đây" width="400"></a><br><sub>Windows 10 / 11 · Không cài được? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.0-win-x64.zip">Bản .zip chạy ngay</a></sub></td>
+    <td align="center" width="50%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/tai-linux.png" alt="TẢI CHO LINUX — bấm vào đây" width="400"></a><br><sub>Ubuntu / Debian / Mint (.deb) · Bản Linux khác: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
+  </tr>
+</table>
+
 <p align="center">
-  <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/nut-tai-cat-pad.png" alt="TẢI CAT PAD MIỄN PHÍ — bấm vào đây" width="480"></a>
-  <br>
   <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Huong-dan-su-dung.pdf"><img src="anh/nut-huong-dan.png" alt="Hướng dẫn sử dụng (PDF)" width="480"></a>
 </p>
 
 <p align="center">
-  Nút xanh luôn tải <b>bản mới nhất</b> — <b>không cần tài khoản, không cần đăng nhập</b>.<br>
-  <sub>Users outside Vietnam: <a href="#english"><b>read in English</b></a> · <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe">download the installer</a></sub>
+  Hai nút tải luôn tải <b>bản mới nhất</b> — <b>không cần tài khoản, không cần đăng nhập</b>.<br>
+  <sub>Users outside Vietnam: <a href="#english"><b>read in English</b></a> · <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe">Windows</a> · <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb">Linux</a></sub>
 </p>
 
 ---
@@ -33,6 +38,7 @@
 ## Có gì mới
 
 **Bản 1.1.0** (20/11/2026)
+- **Có bản Linux** (mới): gói `.deb` cho Ubuntu / Debian / Linux Mint và `AppImage` cho mọi bản Linux 64-bit — nút cam **TẢI CHO LINUX** ở trên.
 - **Công cụ Tiếng Anh** (nút **T.Anh**): chèn **tệp nghe MP3** vào trang rồi bấm ▶ để phát — có tua 5 giây, đổi tốc độ, lặp đoạn A–B; **đọc mẫu tiếng Anh** bằng giọng của Windows; **bảng phiên âm IPA**; **bài điền từ vào chỗ trống**.
 - **Nút "Cập nhật bản mới"** tự hiện ở góc trên bên phải khi có bản mới (tắt được trong Cài đặt).
 - **Chọn vùng kiểu mới:** kéo khung bao trọn các nét, 4 nút tròn ở góc để đổi cỡ, thanh xanh có Cắt / Chép / Dán / Nhân bản / Xoá; chọn được cả hình dựng động.
@@ -54,9 +60,9 @@
 
 ---
 
-## Cài đặt trong 3 bước
+## Cài đặt trong 3 bước (Windows)
 
-**Bước 1 — Tải về.** Bấm nút xanh **TẢI CAT PAD MIỄN PHÍ** ở trên. Tệp `CAT-Pad-Setup.exe` (khoảng 118 MB) được tải về thư mục **Tải xuống (Downloads)**.
+**Bước 1 — Tải về.** Bấm nút xanh **TẢI CHO WINDOWS** ở trên. Tệp `CAT-Pad-Setup.exe` (khoảng 118 MB) được tải về thư mục **Tải xuống (Downloads)**.
 > Nếu trình duyệt báo tệp "không thường được tải xuống", bấm vào dấu **…** cạnh tệp → chọn **Giữ lại (Keep)**.
 
 **Bước 2 — Mở tệp vừa tải.** Bấm đúp vào tệp `CAT-Pad-Setup.exe`.
@@ -67,6 +73,20 @@
 Lần đầu mở, CAT Pad tự tạo một sổ mới — thầy cô có thể viết ngay. Xem thêm cách dùng từng công cụ trong **[Hướng dẫn sử dụng (PDF)](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Huong-dan-su-dung.pdf)**.
 
 Nút tải không hoạt động? Mở **[trang tải về](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest)** rồi bấm vào tệp `CAT-Pad-Setup.exe` trong mục **Assets**.
+
+## Cài đặt trên Linux
+
+**Ubuntu, Debian, Linux Mint** — bấm nút cam **TẢI CHO LINUX** ở trên để tải `CAT-Pad-linux-amd64.deb` (khoảng 99 MB), bấm đúp vào tệp để mở bằng trình cài phần mềm → **Cài đặt**. Hoặc mở Terminal trong thư mục Tải xuống và chạy:
+
+```bash
+sudo apt install ./CAT-Pad-linux-amd64.deb
+```
+
+Sau đó mở **CAT Pad** trong menu ứng dụng.
+
+**Bản Linux khác** (Fedora, Arch…) — tải [`CAT-Pad-linux-x86_64.AppImage`](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage) (khoảng 123 MB), chuột phải → **Thuộc tính** → bật **Cho phép chạy như chương trình** (hoặc `chmod +x CAT-Pad-linux-x86_64.AppImage`), rồi bấm đúp. Nếu không mở được, cài thêm gói FUSE: `sudo apt install libfuse2t64` (Ubuntu 24.04) hoặc `libfuse2` (Ubuntu 22.04).
+
+Bản Linux chưa tự cài đè khi có bản mới: nút **Cập nhật bản mới** sẽ mở trang tải về để thầy cô tải bản mới.
 
 ---
 
@@ -85,13 +105,13 @@ Nút tải không hoạt động? Mở **[trang tải về](https://github.com/c
 
 ## Yêu cầu máy tính
 
-- Windows 10 hoặc 11, bản 64-bit
+- Windows 10 hoặc 11, bản 64-bit; hoặc Linux 64-bit (Ubuntu 22.04 trở lên, Debian 12, Linux Mint 21…)
 - Khoảng 400 MB dung lượng trống
 - Dùng được chuột, bút cảm ứng hoặc màn hình cảm ứng
 
 ## Dữ liệu và sao lưu
 
-- Sổ ghi được lưu tự động trong máy, tại `%APPDATA%\CAT Pad`. Gỡ cài đặt hoặc cài bản mới **không** xoá sổ.
+- Sổ ghi được lưu tự động trong máy, tại `%APPDATA%\CAT Pad` (Linux: `~/.config/CAT Pad`). Gỡ cài đặt hoặc cài bản mới **không** xoá sổ.
 - Chuyển sang máy khác hoặc sao lưu thủ công: mở sổ → Trình đơn ≡ → **Lưu thành tệp .catpad**; ở máy mới chọn **Mở tệp .catpad…**.
 - Mỗi lần mở app, kho sổ được tự sao lưu vào `%APPDATA%\CAT Pad\sao-luu-so\` (giữ 5 bản gần nhất và luôn giữ bản lớn nhất).
 
@@ -102,12 +122,15 @@ Trong [trang tải về](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/rele
 | Tệp | Dùng khi |
 | --- | --- |
 | `CAT-Pad-<phiên bản>-win-x64.zip` | Bản chạy ngay không cần cài: giải nén ra ổ cứng rồi mở `CAT Pad.exe` (không tự cập nhật được). |
+| `CAT-Pad-linux-amd64.deb`, `CAT-Pad-linux-x86_64.AppImage` | Bản Linux (xem mục **Cài đặt trên Linux**). |
 | `SHA256SUMS.txt` | Mã SHA-256 để kiểm tra tệp tải về không bị thay đổi. |
 | `update.json`, `update.json.sig` | Thông tin bản cập nhật và chữ ký số của Chuyên Anh Tutorials, dùng cho nút **Kiểm tra cập nhật** trong app (không cần tải). |
 
 ```powershell
 Get-FileHash .\CAT-Pad-Setup.exe -Algorithm SHA256
 ```
+
+Trên Linux: `sha256sum CAT-Pad-linux-amd64.deb`.
 
 ## Giấy phép
 
@@ -123,21 +146,27 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 
 ## English
 
+<table align="center">
+  <tr>
+    <td align="center" width="50%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/download-windows.png" alt="DOWNLOAD FOR WINDOWS — click here" width="400"></a><br><sub>Windows 10 / 11 · Can't install? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.0-win-x64.zip">Portable .zip</a></sub></td>
+    <td align="center" width="50%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/download-linux.png" alt="DOWNLOAD FOR LINUX — click here" width="400"></a><br><sub>Ubuntu / Debian / Mint (.deb) · Other Linux: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
+  </tr>
+</table>
+
 <p align="center">
-  <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/download-cat-pad.png" alt="DOWNLOAD CAT PAD FREE — click here" width="480"></a>
-  <br>
-  <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-User-Guide.pdf"><b>📘 User guide in English (PDF)</b></a>
+  <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-User-Guide.pdf"><img src="anh/user-guide-en.png" alt="User guide (PDF)" width="480"></a>
 </p>
 
 <p align="center">
   <b>A free digital notebook for teaching Maths, Physics, Chemistry and Biology</b><br>
-  Free · Works offline · For Windows 10 / 11 PCs<br>
-  The button always downloads the <b>latest version</b> — no account or sign-in needed.
+  Free · Works offline · For Windows 10 / 11 and Linux PCs<br>
+  Both buttons always download the <b>latest version</b> — no account or sign-in needed.
 </p>
 
 ### What's new
 
 **Version 1.1.0** (20 Nov 2026)
+- **Linux version** (new): a `.deb` package for Ubuntu / Debian / Linux Mint and an `AppImage` for any 64-bit Linux — the orange **DOWNLOAD FOR LINUX** button above.
 - **English teaching tools** (the **English** button): insert an **MP3 listening track** and press ▶ to play it — with ±5 s, speed control and A–B repeat; **read aloud** with Windows voices; an **IPA chart**; a **fill-in-the-blank** builder.
 - An **Update available** button appears at the top right when a newer version exists (can be turned off in Settings).
 - **New selection:** drag a box that fully encloses the strokes, round corner handles to resize, a blue bar with Cut / Copy / Paste / Duplicate / Delete; dynamic-geometry figures can be selected too.
@@ -157,9 +186,9 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 
 Already have CAT Pad? Open it → Menu ≡ → **Check for updates…** → **Update now**; your notebooks are kept. Notes for every version are on the [releases page](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases).
 
-### Install in 3 steps
+### Install in 3 steps (Windows)
 
-**Step 1 — Download.** Click the blue **DOWNLOAD CAT PAD FREE** button above. `CAT-Pad-Setup.exe` (about 118 MB) is saved to your **Downloads** folder.
+**Step 1 — Download.** Click the blue **DOWNLOAD FOR WINDOWS** button above. `CAT-Pad-Setup.exe` (about 118 MB) is saved to your **Downloads** folder.
 > If your browser says the file "isn't commonly downloaded", click **…** next to the file → **Keep**.
 
 **Step 2 — Open the file.** Double-click `CAT-Pad-Setup.exe`.
@@ -170,6 +199,20 @@ Already have CAT Pad? Open it → Menu ≡ → **Check for updates…** → **Up
 **Switch the app to English:** CAT Pad starts in Vietnamese. Open Menu ≡ → **Ngôn ngữ / Language** → **English**. The whole interface changes instantly and CAT Pad remembers your choice.
 
 The download button doesn't work? Open the **[download page](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest)** and click `CAT-Pad-Setup.exe` under **Assets**. The illustrated user guide is available in **[English](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-User-Guide.pdf)** (`CAT-Pad-User-Guide.pdf`) and in Vietnamese (`CAT-Pad-Huong-dan-su-dung.pdf`).
+
+### Install on Linux
+
+**Ubuntu, Debian, Linux Mint** — click the orange **DOWNLOAD FOR LINUX** button above to get `CAT-Pad-linux-amd64.deb` (about 99 MB), double-click it to open it in your software installer → **Install**. Or open a terminal in your Downloads folder and run:
+
+```bash
+sudo apt install ./CAT-Pad-linux-amd64.deb
+```
+
+Then open **CAT Pad** from your applications menu.
+
+**Other distributions** (Fedora, Arch…) — download [`CAT-Pad-linux-x86_64.AppImage`](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage) (about 123 MB), right-click → **Properties** → enable **Allow executing file as program** (or `chmod +x CAT-Pad-linux-x86_64.AppImage`), then double-click it. If it does not start, install FUSE: `sudo apt install libfuse2t64` (Ubuntu 24.04) or `libfuse2` (Ubuntu 22.04).
+
+The Linux version does not install updates by itself yet: the **Update available** button opens the download page so you can get the new version.
 
 ### Features
 
@@ -186,13 +229,13 @@ The download button doesn't work? Open the **[download page](https://github.com/
 
 ### System requirements
 
-- Windows 10 or 11, 64-bit
+- Windows 10 or 11, 64-bit; or 64-bit Linux (Ubuntu 22.04 or later, Debian 12, Linux Mint 21…)
 - About 400 MB of free disk space
 - Works with a mouse, a stylus or a touch screen
 
 ### Data and backup
 
-- Notebooks are saved automatically on your computer, in `%APPDATA%\CAT Pad`. Uninstalling or installing a new version does **not** delete them.
+- Notebooks are saved automatically on your computer, in `%APPDATA%\CAT Pad` (Linux: `~/.config/CAT Pad`). Uninstalling or installing a new version does **not** delete them.
 - To move to another computer or back up manually: open a notebook → Menu ≡ → **Save as .catpad file**; on the new computer choose **Open .catpad file…**.
 - Every time the app starts, your notebooks are backed up to `%APPDATA%\CAT Pad\sao-luu-so\` (the 5 most recent copies, plus the largest one, are kept).
 
@@ -203,12 +246,15 @@ The [download page](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/
 | File | Use it when |
 | --- | --- |
 | `CAT-Pad-<version>-win-x64.zip` | Portable version, no installation: unzip it and run `CAT Pad.exe` (cannot update itself). |
+| `CAT-Pad-linux-amd64.deb`, `CAT-Pad-linux-x86_64.AppImage` | Linux version (see **Install on Linux**). |
 | `SHA256SUMS.txt` | SHA-256 checksums to verify that your download has not been altered. |
 | `update.json`, `update.json.sig` | Update information signed by Chuyên Anh Tutorials, used by **Check for updates** in the app (no need to download). |
 
 ```powershell
 Get-FileHash .\CAT-Pad-Setup.exe -Algorithm SHA256
 ```
+
+On Linux: `sha256sum CAT-Pad-linux-amd64.deb`.
 
 ### License
 

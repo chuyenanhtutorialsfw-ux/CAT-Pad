@@ -125,6 +125,8 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 
 <p align="center">
   <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/download-cat-pad.png" alt="DOWNLOAD CAT PAD FREE — click here" width="480"></a>
+  <br>
+  <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-User-Guide.pdf"><b>📘 User guide in English (PDF)</b></a>
 </p>
 
 <p align="center">
@@ -167,7 +169,7 @@ Already have CAT Pad? Open it → Menu ≡ → **Check for updates…** → **Up
 
 **Switch the app to English:** CAT Pad starts in Vietnamese. Open Menu ≡ → **Ngôn ngữ / Language** → **English**. The whole interface changes instantly and CAT Pad remembers your choice.
 
-The download button doesn't work? Open the **[download page](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest)** and click `CAT-Pad-Setup.exe` under **Assets**. The illustrated user guide (`CAT-Pad-Huong-dan-su-dung.pdf`) is currently available in Vietnamese only.
+The download button doesn't work? Open the **[download page](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest)** and click `CAT-Pad-Setup.exe` under **Assets**. The illustrated user guide is available in **[English](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-User-Guide.pdf)** (`CAT-Pad-User-Guide.pdf`) and in Vietnamese (`CAT-Pad-Huong-dan-su-dung.pdf`).
 
 ### Features
 

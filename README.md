@@ -32,6 +32,14 @@
 
 ## Có gì mới
 
+**Bản 1.1.0** (20/11/2026)
+- **Công cụ Tiếng Anh** (nút **T.Anh**): chèn **tệp nghe MP3** vào trang rồi bấm ▶ để phát — có tua 5 giây, đổi tốc độ, lặp đoạn A–B; **đọc mẫu tiếng Anh** bằng giọng của Windows; **bảng phiên âm IPA**; **bài điền từ vào chỗ trống**.
+- **Nút "Cập nhật bản mới"** tự hiện ở góc trên bên phải khi có bản mới (tắt được trong Cài đặt).
+- **Chọn vùng kiểu mới:** kéo khung bao trọn các nét, 4 nút tròn ở góc để đổi cỡ, thanh xanh có Cắt / Chép / Dán / Nhân bản / Xoá; chọn được cả hình dựng động.
+- **Đưa nét và hình sang trang khác:** kéo vùng chọn qua mép trang, bấm **↓ Trang sau**, hoặc chép rồi dán ở trang khác.
+- **Đường tròn** vẽ từ tâm kéo ra. **Dựng hình động:** kéo điểm dễ hơn, kéo cả hình, điểm trượt trên đường thẳng / đường tròn.
+- Sửa lỗi: **tô màu** phần chung của các hình chồng nhau; **Ctrl+C / Ctrl+V** cho nét chữ, nét vẽ; bỏ tự trượt trang khi đang viết.
+
 **Bản 1.0.3** (17/11/2026)
 - **Tiếp tuyến của đường tròn:** nút **Dựng hình động** → thẻ **Dựng** → **Tiếp tuyến của đường tròn**. Chọn 1 điểm rồi bấm vào đường tròn: điểm nằm ngoài cho hai tiếp tuyến và hai tiếp điểm; điểm nằm trên đường tròn cho tiếp tuyến tại điểm đó. Kéo điểm thì tiếp tuyến chạy theo.
 - Sửa lỗi bấm **Cập nhật ngay** ngay sau khi mở app đôi khi không cài được.
@@ -73,7 +81,7 @@ Nút tải không hoạt động? Mở **[trang tải về](https://github.com/c
 - **Tài liệu**: nhập PDF để viết lên, xuất PDF, xuất PNG từng trang hoặc cả sổ (.zip).
 - **Song ngữ**: giao diện Tiếng Việt / English, đổi tức thì (Trình đơn ≡ → **Ngôn ngữ / Language**).
 - **An toàn dữ liệu**: chạy hoàn toàn trên máy, không cần mạng; không gửi sổ ghi hay thông tin cá nhân ra ngoài; tự sao lưu kho sổ mỗi lần mở app.
-- **Tự cập nhật**: Trình đơn ≡ → **Kiểm tra cập nhật…** → **Cập nhật ngay**. App tải bản mới, cài đè và tự mở lại; sổ ghi giữ nguyên. App chỉ dùng mạng khi bấm nút này.
+- **Tự cập nhật**: Trình đơn ≡ → **Kiểm tra cập nhật…** → **Cập nhật ngay**. App tải bản mới, cài đè và tự mở lại; sổ ghi giữ nguyên. Từ bản 1.1.0, khi có bản mới app tự hiện nút **Cập nhật bản mới**. App chỉ dùng mạng để kiểm tra và tải bản cập nhật (mỗi lần mở app hỏi GitHub một lần; tắt được trong Cài đặt), không gửi sổ ghi hay thông tin cá nhân.
 
 ## Yêu cầu máy tính
 
@@ -127,6 +135,14 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 
 ### What's new
 
+**Version 1.1.0** (20 Nov 2026)
+- **English teaching tools** (the **English** button): insert an **MP3 listening track** and press ▶ to play it — with ±5 s, speed control and A–B repeat; **read aloud** with Windows voices; an **IPA chart**; a **fill-in-the-blank** builder.
+- An **Update available** button appears at the top right when a newer version exists (can be turned off in Settings).
+- **New selection:** drag a box that fully encloses the strokes, round corner handles to resize, a blue bar with Cut / Copy / Paste / Duplicate / Delete; dynamic-geometry figures can be selected too.
+- **Move strokes and shapes to another page:** drag the selection past the page edge, use **Next page**, or copy and paste on another page.
+- **Circles** are drawn from the centre outwards. **Dynamic geometry:** easier point dragging, move a whole figure, points that slide along a line or circle.
+- Fixed: **fill** for the region shared by overlapping shapes; **Ctrl+C / Ctrl+V** for handwriting and strokes; removed auto-scroll while writing.
+
 **Version 1.0.3** (17 Nov 2026)
 - **Tangent to a circle:** **Dynamic geometry** → **Construct** tab → **Tangent to a circle**. Pick a point, then click the circle: a point outside gives both tangents and their points of tangency; a point on the circle gives the tangent at that point. Drag the point and the tangents follow.
 - Fixed: clicking **Update now** right after opening the app could sometimes fail to install.
@@ -164,7 +180,7 @@ The download button doesn't work? Open the **[download page](https://github.com/
 - **Documents**: import PDFs to write on them, export to PDF, export pages or the whole notebook to PNG (.zip).
 - **Bilingual**: Vietnamese / English interface, switch instantly.
 - **Your data stays with you**: runs entirely on your computer, no internet needed; never sends your notebooks or personal information anywhere; backs up your notebooks automatically every time it starts.
-- **Self-updating**: Menu ≡ → **Check for updates…** → **Update now**. CAT Pad downloads the new version, installs it and reopens; your notebooks are kept. This is the only time the app goes online.
+- **Self-updating**: Menu ≡ → **Check for updates…** → **Update now**. CAT Pad downloads the new version, installs it and reopens; your notebooks are kept. From 1.1.0 an **Update available** button appears when a newer version exists. The app only goes online to check for and download updates (it asks GitHub once at startup; you can turn this off in Settings) and never sends notebooks or personal data.
 
 ### System requirements
 

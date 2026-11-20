@@ -10,7 +10,7 @@
 
 <p align="center">
   <b>Vở ghi dạy học Toán – Lý – Hoá – Sinh</b><br>
-  Miễn phí · Không cần mạng · Dành cho máy tính Windows 10 / 11 và Linux
+  Miễn phí · Không cần mạng · Dành cho máy tính Windows, Mac và Linux
 </p>
 
 <p align="center">
@@ -19,8 +19,9 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="50%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/tai-windows.png" alt="TẢI CHO WINDOWS — bấm vào đây" width="400"></a><br><sub>Windows 10 / 11 · Không cài được? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.0-win-x64.zip">Bản .zip chạy ngay</a></sub></td>
-    <td align="center" width="50%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/tai-linux.png" alt="TẢI CHO LINUX — bấm vào đây" width="400"></a><br><sub>Ubuntu / Debian / Mint (.deb) · Bản Linux khác: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/tai-win.png" alt="TẢI CHO WINDOWS" width="270"></a><br><sub>Không cài được? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.0-win-x64.zip">Bản .zip</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/tai-lnx.png" alt="TẢI CHO LINUX" width="270"></a><br><sub>Linux khác: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-arm64.zip"><img src="anh/tai-mac.png" alt="TẢI CHO MAC" width="270"></a><br><sub>Mac chip Intel: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-x64.zip">bản Intel</a></sub></td>
   </tr>
 </table>
 
@@ -29,8 +30,8 @@
 </p>
 
 <p align="center">
-  Hai nút tải luôn tải <b>bản mới nhất</b> — <b>không cần tài khoản, không cần đăng nhập</b>.<br>
-  <sub>Users outside Vietnam: <a href="#english"><b>read in English</b></a> · <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe">Windows</a> · <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb">Linux</a></sub>
+  Các nút tải luôn tải <b>bản mới nhất</b> — <b>không cần tài khoản, không cần đăng nhập</b>.<br>
+  <sub>Users outside Vietnam: <a href="#english"><b>read in English</b></a> · <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe">Windows</a> · <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb">Linux</a> · <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-arm64.zip">Mac</a></sub>
 </p>
 
 ---
@@ -38,6 +39,7 @@
 ## Có gì mới
 
 **Bản 1.1.0** (20/11/2026)
+- **Có bản Mac** (mới, thử nghiệm): cho máy chip M-series và máy chip Intel — nút **TẢI CHO MAC** ở trên, xem mục **Cài đặt trên Mac**.
 - **Có bản Linux** (mới): gói `.deb` cho Ubuntu / Debian / Linux Mint và `AppImage` cho mọi bản Linux 64-bit — nút cam **TẢI CHO LINUX** ở trên.
 - **Công cụ Tiếng Anh** (nút **T.Anh**): chèn **tệp nghe MP3** vào trang rồi bấm ▶ để phát — có tua 5 giây, đổi tốc độ, lặp đoạn A–B; **đọc mẫu tiếng Anh** bằng giọng của Windows; **bảng phiên âm IPA**; **bài điền từ vào chỗ trống**.
 - **Nút "Cập nhật bản mới"** tự hiện ở góc trên bên phải khi có bản mới (tắt được trong Cài đặt).
@@ -88,6 +90,27 @@ Sau đó mở **CAT Pad** trong menu ứng dụng.
 
 Bản Linux chưa tự cài đè khi có bản mới: nút **Cập nhật bản mới** sẽ mở trang tải về để thầy cô tải bản mới.
 
+## Cài đặt trên Mac
+
+Bản Mac là bản thử nghiệm, miễn phí, chưa mua chứng thư của Apple — lần đầu mở cần cho phép một lần. Yêu cầu macOS 12 (Monterey) trở lên.
+
+**Bước 1 — Chọn đúng bản.** Bấm biểu tượng Apple ở góc trái trên → **Giới thiệu về máy Mac này**:
+- Dòng **Chip** ghi *Apple M1, M2, M3, M4…* (chip M-series) → bấm nút **TẢI CHO MAC** ở trên (`CAT-Pad-mac-arm64.zip`, khoảng 118 MB).
+- Dòng **Bộ xử lý** ghi *Intel* → tải [`CAT-Pad-mac-x64.zip`](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-x64.zip) (khoảng 124 MB).
+
+**Bước 2 — Cài.** Safari tự giải nén: trong thư mục **Tải về** xuất hiện **CAT Pad**. Kéo **CAT Pad** vào thư mục **Ứng dụng** (Applications).
+
+**Bước 3 — Mở lần đầu.** Bấm đúp **CAT Pad** → macOS báo *"Apple không thể xác minh 'CAT Pad'…"* → bấm **Xong**. Mở **Cài đặt hệ thống** → **Quyền riêng tư & Bảo mật** → kéo xuống dưới, thấy dòng *"CAT Pad đã bị chặn…"* → bấm **Vẫn mở** → nhập mật khẩu máy → **Vẫn mở**. Từ lần sau mở bình thường.
+> macOS 14 trở về trước: chuột phải (hoặc Control + bấm) vào **CAT Pad** → **Mở** → **Mở**.
+
+Nếu macOS báo *"CAT Pad bị hỏng và không thể mở"*: mở **Terminal** (Launchpad → Khác → Terminal), dán lệnh dưới rồi bấm Return, sau đó mở lại CAT Pad:
+
+```bash
+xattr -cr "/Applications/CAT Pad.app"
+```
+
+Trên Mac, phím tắt dùng **Cmd** thay cho **Ctrl** (Cmd+Z, Cmd+C, Cmd+V…). Bản Mac chưa tự cập nhật: nút **Cập nhật bản mới** mở trang tải về; tải bản mới rồi kéo đè vào thư mục Ứng dụng (sổ ghi giữ nguyên). Gặp lỗi khi cài hay khi dùng, thầy cô báo giúp ở mục [Issues](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/issues).
+
 ---
 
 ## CAT Pad làm được gì
@@ -105,13 +128,13 @@ Bản Linux chưa tự cài đè khi có bản mới: nút **Cập nhật bản 
 
 ## Yêu cầu máy tính
 
-- Windows 10 hoặc 11, bản 64-bit; hoặc Linux 64-bit (Ubuntu 22.04 trở lên, Debian 12, Linux Mint 21…)
+- Windows 10 hoặc 11, bản 64-bit; Linux 64-bit (Ubuntu 22.04 trở lên, Debian 12, Linux Mint 21…); hoặc macOS 12 trở lên (chip M-series hoặc Intel)
 - Khoảng 400 MB dung lượng trống
 - Dùng được chuột, bút cảm ứng hoặc màn hình cảm ứng
 
 ## Dữ liệu và sao lưu
 
-- Sổ ghi được lưu tự động trong máy, tại `%APPDATA%\CAT Pad` (Linux: `~/.config/CAT Pad`). Gỡ cài đặt hoặc cài bản mới **không** xoá sổ.
+- Sổ ghi được lưu tự động trong máy, tại `%APPDATA%\CAT Pad` (Mac: `~/Library/Application Support/CAT Pad`; Linux: `~/.config/CAT Pad`). Gỡ cài đặt hoặc cài bản mới **không** xoá sổ.
 - Chuyển sang máy khác hoặc sao lưu thủ công: mở sổ → Trình đơn ≡ → **Lưu thành tệp .catpad**; ở máy mới chọn **Mở tệp .catpad…**.
 - Mỗi lần mở app, kho sổ được tự sao lưu vào `%APPDATA%\CAT Pad\sao-luu-so\` (giữ 5 bản gần nhất và luôn giữ bản lớn nhất).
 
@@ -123,6 +146,7 @@ Trong [trang tải về](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/rele
 | --- | --- |
 | `CAT-Pad-<phiên bản>-win-x64.zip` | Bản chạy ngay không cần cài: giải nén ra ổ cứng rồi mở `CAT Pad.exe` (không tự cập nhật được). |
 | `CAT-Pad-linux-amd64.deb`, `CAT-Pad-linux-x86_64.AppImage` | Bản Linux (xem mục **Cài đặt trên Linux**). |
+| `CAT-Pad-mac-arm64.zip`, `CAT-Pad-mac-x64.zip` | Bản Mac cho chip M-series / chip Intel (xem mục **Cài đặt trên Mac**). |
 | `SHA256SUMS.txt` | Mã SHA-256 để kiểm tra tệp tải về không bị thay đổi. |
 | `update.json`, `update.json.sig` | Thông tin bản cập nhật và chữ ký số của Chuyên Anh Tutorials, dùng cho nút **Kiểm tra cập nhật** trong app (không cần tải). |
 
@@ -130,7 +154,7 @@ Trong [trang tải về](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/rele
 Get-FileHash .\CAT-Pad-Setup.exe -Algorithm SHA256
 ```
 
-Trên Linux: `sha256sum CAT-Pad-linux-amd64.deb`.
+Trên Linux: `sha256sum CAT-Pad-linux-amd64.deb`. Trên Mac: `shasum -a 256 CAT-Pad-mac-arm64.zip`.
 
 ## Giấy phép
 
@@ -148,8 +172,9 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 
 <table align="center">
   <tr>
-    <td align="center" width="50%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/download-windows.png" alt="DOWNLOAD FOR WINDOWS — click here" width="400"></a><br><sub>Windows 10 / 11 · Can't install? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.0-win-x64.zip">Portable .zip</a></sub></td>
-    <td align="center" width="50%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/download-linux.png" alt="DOWNLOAD FOR LINUX — click here" width="400"></a><br><sub>Ubuntu / Debian / Mint (.deb) · Other Linux: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/dl-win.png" alt="DOWNLOAD FOR WINDOWS" width="270"></a><br><sub>Can't install? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.0-win-x64.zip">Portable .zip</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/dl-lnx.png" alt="DOWNLOAD FOR LINUX" width="270"></a><br><sub>Other Linux: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-arm64.zip"><img src="anh/dl-mac.png" alt="DOWNLOAD FOR MAC" width="270"></a><br><sub>Intel Mac: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-x64.zip">Intel version</a></sub></td>
   </tr>
 </table>
 
@@ -159,13 +184,14 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 
 <p align="center">
   <b>A free digital notebook for teaching Maths, Physics, Chemistry and Biology</b><br>
-  Free · Works offline · For Windows 10 / 11 and Linux PCs<br>
-  Both buttons always download the <b>latest version</b> — no account or sign-in needed.
+  Free · Works offline · For Windows, Mac and Linux<br>
+  The buttons always download the <b>latest version</b> — no account or sign-in needed.
 </p>
 
 ### What's new
 
 **Version 1.1.0** (20 Nov 2026)
+- **Mac version** (new, beta): for M-series and Intel Macs — the **DOWNLOAD FOR MAC** button above; see **Install on Mac**.
 - **Linux version** (new): a `.deb` package for Ubuntu / Debian / Linux Mint and an `AppImage` for any 64-bit Linux — the orange **DOWNLOAD FOR LINUX** button above.
 - **English teaching tools** (the **English** button): insert an **MP3 listening track** and press ▶ to play it — with ±5 s, speed control and A–B repeat; **read aloud** with Windows voices; an **IPA chart**; a **fill-in-the-blank** builder.
 - An **Update available** button appears at the top right when a newer version exists (can be turned off in Settings).
@@ -214,6 +240,27 @@ Then open **CAT Pad** from your applications menu.
 
 The Linux version does not install updates by itself yet: the **Update available** button opens the download page so you can get the new version.
 
+### Install on Mac
+
+The Mac version is a free beta without a paid Apple certificate, so you allow it once the first time. Requires macOS 12 (Monterey) or later.
+
+**Step 1 — Pick the right file.** Apple menu → **About This Mac**:
+- **Chip** says *Apple M1, M2, M3, M4…* (M-series chip) → click **DOWNLOAD FOR MAC** above (`CAT-Pad-mac-arm64.zip`, about 118 MB).
+- **Processor** says *Intel* → download [`CAT-Pad-mac-x64.zip`](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-x64.zip) (about 124 MB).
+
+**Step 2 — Install.** Safari unzips it for you: **CAT Pad** appears in **Downloads**. Drag **CAT Pad** into **Applications**.
+
+**Step 3 — First launch.** Double-click **CAT Pad** → macOS says *"Apple could not verify 'CAT Pad'…"* → click **Done**. Open **System Settings** → **Privacy & Security** → scroll down to *"CAT Pad was blocked…"* → click **Open Anyway** → enter your Mac password → **Open Anyway**. After that it opens normally.
+> macOS 14 or earlier: right-click (or Control-click) **CAT Pad** → **Open** → **Open**.
+
+If macOS says *"CAT Pad is damaged and can't be opened"*: open **Terminal** (Launchpad → Other → Terminal), paste the command below, press Return, then open CAT Pad again:
+
+```bash
+xattr -cr "/Applications/CAT Pad.app"
+```
+
+On a Mac, shortcuts use **Cmd** instead of **Ctrl** (Cmd+Z, Cmd+C, Cmd+V…). The Mac version does not update itself yet: the **Update available** button opens the download page; download the new version and drag it over the old one in Applications (notebooks are kept). Please report any problem in [Issues](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/issues).
+
 ### Features
 
 - **Smooth handwriting**: pressure-sensitive pen, highlighter, presentation laser pointer (adjustable intensity), smart eraser; hold the pen still to straighten a stroke into a line or shape.
@@ -229,13 +276,13 @@ The Linux version does not install updates by itself yet: the **Update available
 
 ### System requirements
 
-- Windows 10 or 11, 64-bit; or 64-bit Linux (Ubuntu 22.04 or later, Debian 12, Linux Mint 21…)
+- Windows 10 or 11, 64-bit; 64-bit Linux (Ubuntu 22.04 or later, Debian 12, Linux Mint 21…); or macOS 12 or later (M-series or Intel)
 - About 400 MB of free disk space
 - Works with a mouse, a stylus or a touch screen
 
 ### Data and backup
 
-- Notebooks are saved automatically on your computer, in `%APPDATA%\CAT Pad` (Linux: `~/.config/CAT Pad`). Uninstalling or installing a new version does **not** delete them.
+- Notebooks are saved automatically on your computer, in `%APPDATA%\CAT Pad` (Mac: `~/Library/Application Support/CAT Pad`; Linux: `~/.config/CAT Pad`). Uninstalling or installing a new version does **not** delete them.
 - To move to another computer or back up manually: open a notebook → Menu ≡ → **Save as .catpad file**; on the new computer choose **Open .catpad file…**.
 - Every time the app starts, your notebooks are backed up to `%APPDATA%\CAT Pad\sao-luu-so\` (the 5 most recent copies, plus the largest one, are kept).
 
@@ -247,6 +294,7 @@ The [download page](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/
 | --- | --- |
 | `CAT-Pad-<version>-win-x64.zip` | Portable version, no installation: unzip it and run `CAT Pad.exe` (cannot update itself). |
 | `CAT-Pad-linux-amd64.deb`, `CAT-Pad-linux-x86_64.AppImage` | Linux version (see **Install on Linux**). |
+| `CAT-Pad-mac-arm64.zip`, `CAT-Pad-mac-x64.zip` | Mac version for M-series / Intel chips (see **Install on Mac**). |
 | `SHA256SUMS.txt` | SHA-256 checksums to verify that your download has not been altered. |
 | `update.json`, `update.json.sig` | Update information signed by Chuyên Anh Tutorials, used by **Check for updates** in the app (no need to download). |
 
@@ -254,7 +302,7 @@ The [download page](https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/
 Get-FileHash .\CAT-Pad-Setup.exe -Algorithm SHA256
 ```
 
-On Linux: `sha256sum CAT-Pad-linux-amd64.deb`.
+On Linux: `sha256sum CAT-Pad-linux-amd64.deb`. On a Mac: `shasum -a 256 CAT-Pad-mac-arm64.zip`.
 
 ### License
 

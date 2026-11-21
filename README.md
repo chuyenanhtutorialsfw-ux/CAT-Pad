@@ -19,7 +19,7 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/tai-win.png" alt="TẢI CHO WINDOWS" width="270"></a><br><sub>Không cài được? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.0-win-x64.zip">Bản .zip</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/tai-win.png" alt="TẢI CHO WINDOWS" width="270"></a><br><sub>Không cài được? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.1-win-x64.zip">Bản .zip</a></sub></td>
     <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/tai-lnx.png" alt="TẢI CHO LINUX" width="270"></a><br><sub>Linux khác: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
     <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-arm64.zip"><img src="anh/tai-mac.png" alt="TẢI CHO MAC" width="270"></a><br><sub>Mac chip Intel: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-x64.zip">bản Intel</a></sub></td>
   </tr>
@@ -37,6 +37,13 @@
 ---
 
 ## Có gì mới
+
+**Bản 1.1.1** (21/11/2026)
+- Sửa lỗi **Đường cao** không dựng được trên tam giác vẽ bằng **Đa giác**: giờ chọn đỉnh rồi bấm thẳng vào cạnh đối diện là xong. Vuông góc, song song, giao điểm, ký hiệu đoạn bằng nhau cũng dùng được cạnh tam giác.
+- Tam giác, tứ giác, đoạn thẳng vẽ bằng **Hình vẽ** (hoặc vẽ tay rồi nắn nét): bấm công cụ dựng hình lên hình là app tự đổi thành hình dựng (đỉnh A, B, C…) để dựng tiếp.
+- Tam giác tù: chân đường cao nằm ngoài cạnh thì cạnh được kéo dài bằng nét đứt; tên chân đường cao không còn đè lên ký hiệu góc vuông.
+- **Đặt tên điểm tuỳ ý:** công cụ mới **Đặt tên điểm** (Dựng hình động → thẻ **Vẽ**): bấm vào điểm rồi gõ tên (M, N, H₁…), hoặc bấm chỗ trống để đặt điểm mới và đặt tên luôn. Nhấp đúp vào điểm để đổi tên dùng được ở cả công cụ **Chọn**, **Điểm**, **Di chuyển điểm**, kể cả với bút cảm ứng.
+- **Lấy điểm tuỳ ý trên cạnh tam giác:** bấm công cụ **Điểm** lên cạnh thì điểm nằm trên cạnh và trượt dọc theo cạnh khi kéo.
 
 **Bản 1.1.0** (20/11/2026)
 - **Có bản Mac** (mới, thử nghiệm): cho máy chip M-series và máy chip Intel — nút **TẢI CHO MAC** ở trên, xem mục **Cài đặt trên Mac**.
@@ -116,7 +123,7 @@ Trên Mac, phím tắt dùng **Cmd** thay cho **Ctrl** (Cmd+Z, Cmd+C, Cmd+V…).
 ## CAT Pad làm được gì
 
 - **Viết tay mượt**: bút bi theo lực nhấn của bút cảm ứng, bút dạ quang, bút laser trình chiếu (chỉnh được độ đậm), tẩy thông minh, giữ yên bút để nắn nét thành đoạn thẳng hoặc hình.
-- **Hình học**: hình vẽ, dựng hình động (kéo điểm, hình tự cập nhật; trung điểm, đường vuông góc, giao điểm, tiếp tuyến…), thước kẻ, compa, tô màu vùng kín.
+- **Hình học**: hình vẽ, dựng hình động (kéo điểm, hình tự cập nhật; trung điểm, đường cao, đường vuông góc, giao điểm, tiếp tuyến, đặt tên điểm tuỳ ý…), thước kẻ, compa, tô màu vùng kín.
 - **Toán**: đồ thị hàm số, bảng biến thiên tự động, hệ trục Oxyz, khối 3D xoay nhiều hướng và trải hình, công thức toán, xác suất – thống kê – lượng giác.
 - **Lý – Hoá – Sinh**: bộ công cụ vẽ sẵn theo từng môn (mạch điện, chuyển động, công thức cấu tạo, thí nghiệm, tế bào…), thư viện công thức và hằng số.
 - **Máy tính khoa học tích hợp**: 12 chế độ gồm số phức, hệ cơ số, ma trận, vectơ, thống kê, phân phối, bảng giá trị, giải phương trình và bất phương trình.
@@ -172,7 +179,7 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 
 <table align="center">
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/dl-win.png" alt="DOWNLOAD FOR WINDOWS" width="270"></a><br><sub>Can't install? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.0-win-x64.zip">Portable .zip</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/dl-win.png" alt="DOWNLOAD FOR WINDOWS" width="270"></a><br><sub>Can't install? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.1-win-x64.zip">Portable .zip</a></sub></td>
     <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/dl-lnx.png" alt="DOWNLOAD FOR LINUX" width="270"></a><br><sub>Other Linux: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
     <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-arm64.zip"><img src="anh/dl-mac.png" alt="DOWNLOAD FOR MAC" width="270"></a><br><sub>Intel Mac: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-x64.zip">Intel version</a></sub></td>
   </tr>
@@ -189,6 +196,13 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 </p>
 
 ### What's new
+
+**Version 1.1.1** (21 Nov 2026)
+- Fixed: the **Altitude** tool could not be used on a triangle drawn with **Polygon**. Now pick the vertex and click the opposite side. Perpendicular, parallel, intersection and equal-segment marks also work on triangle sides.
+- Triangles, quadrilaterals and segments drawn with **Shapes** (or hand-drawn and straightened): click them with a geometry tool and they turn into a construction (vertices A, B, C…) so you can keep building.
+- Obtuse triangles: when the foot of an altitude falls outside the side, the side is extended with a dashed line; the foot's label no longer overlaps the right-angle mark.
+- **Name points freely:** new **Name point** tool (Dynamic geometry → **Draw** tab): click a point and type any name (M, N, H₁…), or click an empty spot to place a new point and name it. Double-click a point to rename it with the **Select**, **Point** or **Move points** tool, also with a pen.
+- **Points on a triangle side:** click a side with the **Point** tool and the point stays on that side, sliding along it when dragged.
 
 **Version 1.1.0** (20 Nov 2026)
 - **Mac version** (new, beta): for M-series and Intel Macs — the **DOWNLOAD FOR MAC** button above; see **Install on Mac**.
@@ -264,7 +278,7 @@ On a Mac, shortcuts use **Cmd** instead of **Ctrl** (Cmd+Z, Cmd+C, Cmd+V…). Th
 ### Features
 
 - **Smooth handwriting**: pressure-sensitive pen, highlighter, presentation laser pointer (adjustable intensity), smart eraser; hold the pen still to straighten a stroke into a line or shape.
-- **Geometry**: shapes, dynamic geometry (drag points and the figure updates; midpoints, perpendiculars, intersections, tangents…), ruler, compass, fill closed regions.
+- **Geometry**: shapes, dynamic geometry (drag points and the figure updates; midpoints, altitudes, perpendiculars, intersections, tangents, free point naming…), ruler, compass, fill closed regions.
 - **Maths**: function graphs, automatic variation tables, Oxyz axes, 3D solids you can rotate and unfold, math formulas, probability – statistics – trigonometry.
 - **Physics – Chemistry – Biology**: ready-made drawing tools for each subject (circuits, motion, structural formulas, lab equipment, cells…), formula and constant libraries.
 - **Built-in scientific calculator**: 12 modes including complex numbers, number bases, matrices, vectors, statistics, distributions, tables, equations and inequalities.

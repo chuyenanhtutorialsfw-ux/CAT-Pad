@@ -19,7 +19,7 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/tai-win.png" alt="TẢI CHO WINDOWS" width="270"></a><br><sub>Không cài được? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.1-win-x64.zip">Bản .zip</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/tai-win.png" alt="TẢI CHO WINDOWS" width="270"></a><br><sub>Không cài được? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.2-win-x64.zip">Bản .zip</a></sub></td>
     <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/tai-lnx.png" alt="TẢI CHO LINUX" width="270"></a><br><sub>Linux khác: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
     <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-arm64.zip"><img src="anh/tai-mac.png" alt="TẢI CHO MAC" width="270"></a><br><sub>Mac chip Intel: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-x64.zip">bản Intel</a></sub></td>
   </tr>
@@ -37,6 +37,9 @@
 ---
 
 ## Có gì mới
+
+**Bản 1.1.2** (21/11/2026)
+- Sửa lỗi **không xoá được sổ**: bấm dấu **⋯** trên thẻ sổ trong **Thư viện sổ** thì menu bị che mất. Giờ **⋯** → **Xoá sổ** dùng được; **Đổi tên**, **Nhân bản** cũng vậy.
 
 **Bản 1.1.1** (21/11/2026)
 - Sửa lỗi **Đường cao** không dựng được trên tam giác vẽ bằng **Đa giác**: giờ chọn đỉnh rồi bấm thẳng vào cạnh đối diện là xong. Vuông góc, song song, giao điểm, ký hiệu đoạn bằng nhau cũng dùng được cạnh tam giác.
@@ -179,7 +182,7 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 
 <table align="center">
   <tr>
-    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/dl-win.png" alt="DOWNLOAD FOR WINDOWS" width="270"></a><br><sub>Can't install? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.1-win-x64.zip">Portable .zip</a></sub></td>
+    <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-Setup.exe"><img src="anh/dl-win.png" alt="DOWNLOAD FOR WINDOWS" width="270"></a><br><sub>Can't install? <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-1.1.2-win-x64.zip">Portable .zip</a></sub></td>
     <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-amd64.deb"><img src="anh/dl-lnx.png" alt="DOWNLOAD FOR LINUX" width="270"></a><br><sub>Other Linux: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-linux-x86_64.AppImage">AppImage</a></sub></td>
     <td align="center" width="33%"><a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-arm64.zip"><img src="anh/dl-mac.png" alt="DOWNLOAD FOR MAC" width="270"></a><br><sub>Intel Mac: <a href="https://github.com/chuyenanhtutorialsfw-ux/CAT-Pad/releases/latest/download/CAT-Pad-mac-x64.zip">Intel version</a></sub></td>
   </tr>
@@ -196,6 +199,9 @@ Gửi góp ý, báo lỗi tại mục [**Issues**](https://github.com/chuyenanht
 </p>
 
 ### What's new
+
+**Version 1.1.2** (21 Nov 2026)
+- Fixed: notebooks **could not be deleted** — the **⋯** menu on a notebook card in the **Notebook library** was hidden behind the library. **⋯** → **Delete notebook** works again, and so do **Rename** and **Duplicate**.
 
 **Version 1.1.1** (21 Nov 2026)
 - Fixed: the **Altitude** tool could not be used on a triangle drawn with **Polygon**. Now pick the vertex and click the opposite side. Perpendicular, parallel, intersection and equal-segment marks also work on triangle sides.
